@@ -10,11 +10,11 @@ else
     even_x = x(2);
 end
 
-n = [0:N-1];
+n = 0:N-1 ;
 
-half = N/2;
+half = fix(N/2);
 
-W = exp(-2*i*pi*n./N);
+W = exp(-2*1i*pi*n/N);
 
 x = W(1:half);
 
