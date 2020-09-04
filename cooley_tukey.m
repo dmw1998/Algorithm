@@ -1,10 +1,10 @@
-function v = cooley_turkey(x)
+function v = cooley_tukey(x)
 
 N = length(x);
 
 if  N>2
-    odd_x = cooley_turkey(x(1:2:N));
-    even_x = cooley_turkey(x(2:2:N));
+    odd_x = cooley_tukey(x(1:2:N));
+    even_x = cooley_tukey(x(2:2:N));
 else
     odd_x = x(1);
     even_x = x(2);
