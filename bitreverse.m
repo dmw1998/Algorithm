@@ -1,6 +1,6 @@
 function arr = bitreverse(array)
 
-arr = bitreorder(array)
+arr = bitrevorder(array);
 
 end
 
