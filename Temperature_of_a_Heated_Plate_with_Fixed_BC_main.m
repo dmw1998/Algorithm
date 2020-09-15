@@ -21,21 +21,6 @@ while error > 0.01
 end
 
 % Print the iteration number, error and interior point values.
-i
-error
-T(2:4,2:4)'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+i;
+error;
+T(2:4,2:4)';
