@@ -1,4 +1,4 @@
-% Use the explicit method to solve for the temperature distribution of a
+% Use the simple implicit method to solve for the temperature distribution of a
 % long, thin rod with a length of 10 cm and the following values: k' = 0.49
 % cal/(s*cm*C), delta x = 2 cm, and delta t = 0.1 s. At t = 0, the
 % temperature of the rod is zero and the boundary condidions are fixed for
